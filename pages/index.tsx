@@ -1,6 +1,5 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import {words} from "../utils/words"
 import {useState} from "react";
@@ -9,7 +8,7 @@ import {useState} from "react";
 const randomWord = () => words[Math.floor(Math.random() * words.length)]
 
 const Home: NextPage = () => {
-	const [word, setWord] = useState("")
+	const [word, setWord] = useState("Click the button to choose a word")
 
   return (
     <div className={styles.container}>
