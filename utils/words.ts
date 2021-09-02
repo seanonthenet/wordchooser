@@ -127,7 +127,6 @@ export const words = [
 	"Doggy Style",
 	"Dolphin",
 	"Donald Trump",
-	"Doorbell Ringing At 4Am In The Morning",
 	"Dragon",
 	"Drawing",
 	"Dreamcatcher",
